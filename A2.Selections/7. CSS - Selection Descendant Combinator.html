@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Selection Nesting</title>
+  <style>
+    #top {
+      background-color: #ccc;
+      padding: 1em
+    }
+
+    /*Descendant Combinator */
+
+    #top h1 {
+      color: #ff0;
+    }
+
+    #top p {
+      color: red;
+      font-weight: bold;
+    }
+
+    #top p span {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="top">
+    <h1>Chocolate curry</h1>
+    <p>This is my recipe for making curry purely with chocolate
+      <span>Test</span>
+    </p>
+    <p>Mmm mm mmmmm</p>
+  </div>
+
+</body>
+
+</html>
