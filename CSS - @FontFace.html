@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Font Face</title>
+  <style>
+    @font-face {
+      font-family: myFirstFont;
+      src: url(sansation_light.woff);
+    }
+
+    @font-face {
+      font-family: myFirstFont;
+      src: url(sansation_bold.woff);
+      font-weight: bold;
+    }
+
+    div {
+      font-family: myFirstFont;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.</div>
+
+  <p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule with the WOFF format (only support for EOT format).</p>
+
+</body>
+
+</html>

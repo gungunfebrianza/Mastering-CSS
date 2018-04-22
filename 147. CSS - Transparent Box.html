@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+div.first {
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+div.second {
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+div.third {
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+
+<h1>Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first"><p>opacity 0.1</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
+
+</body>
+</html>

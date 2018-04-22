@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pseudo Visited</title>
+  <style>
+    a.ex1:hover,
+    a.ex1:active {
+      color: red;
+    }
+
+    a.ex2:hover,
+    a.ex2:active {
+      font-size: 150%;
+    }
+
+    a.ex3:hover,
+    a.ex3:active {
+      background: red;
+    }
+
+    a.ex4:hover,
+    a.ex4:active {
+      font-family: monospace;
+    }
+
+    a.ex5:visited,
+    a.ex5:link {
+      text-decoration: none;
+    }
+
+    a.ex5:hover,
+    a.ex5:active {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>Mouse over the links to see them change layout.</p>
+
+  <p><a class="ex1" href="default.asp">This link changes color</a></p>
+  <p><a class="ex2" href="default.asp">This link changes font-size</a></p>
+  <p><a class="ex3" href="default.asp">This link changes background-color</a></p>
+  <p><a class="ex4" href="default.asp">This link changes font-family</a></p>
+  <p><a class="ex5" href="default.asp">This link changes text-decoration</a></p>
+
+</body>
+
+</html>
