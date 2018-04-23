@@ -1,5 +1,23 @@
 # learning-css
-from zero to hero learning css
+From zero to hero learning CSS (Cascading Style Sheet).
+This is my learning resources at the time study about CSS.
+This Project Contains Source Code for learning :
+<ul>
+  <li>Basics</li>
+  <li>Selection</li>
+  <li>Color</li>
+  <li>Background</li>
+  <li>Border</li>
+  <li>Margin</li>
+  <li>Padding</li>
+  <li>Box Model</li>
+  <li>Text</li>
+  <li>Font</li>
+  <li>List</li>
+  <li>Table</li>
+  <li>Unit</li>
+</ul>
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
