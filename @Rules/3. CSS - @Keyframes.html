@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Keyframes</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      -webkit-animation: mymove 5s infinite;
+      /* Safari 4.0 - 8.0 */
+      animation: mymove 5s infinite;
+    }
+
+    /* Safari 4.0 - 8.0 */
+
+    @-webkit-keyframes mymove {
+      0% {
+        top: 0px;
+      }
+      25% {
+        top: 200px;
+      }
+      75% {
+        top: 50px
+      }
+      100% {
+        top: 100px;
+      }
+    }
+
+    /* Standard syntax */
+
+    @keyframes mymove {
+      0% {
+        top: 0px;
+      }
+      25% {
+        top: 200px;
+      }
+      75% {
+        top: 50px
+      }
+      100% {
+        top: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+
+  <div></div>
+
+</body>
+
+</html>
