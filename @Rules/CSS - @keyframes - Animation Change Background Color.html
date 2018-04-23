@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-#myDIV {
-    width: 300px;
-    height: 200px;
-    background: red url('smiley.gif') no-repeat top left/5px 5px;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
-}
+  <meta charset="utf-8">
+  <title>Keyframe Animation Change</title>
+  <style>
+    #myDIV {
+      width: 300px;
+      height: 200px;
+      background: red url('smiley.gif') no-repeat top left/5px 5px;
+      -webkit-animation: mymove 5s infinite;
+      /* Chrome, Safari, Opera */
+      animation: mymove 5s infinite;
+    }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-    50% {background: blue bottom right/50px 50px;}
-}
+    /* Chrome, Safari, Opera */
 
-/* Standard syntax */
-@keyframes mymove {
-    50% {background: blue bottom right/50px 50px;}
-}
-</style>
+    @-webkit-keyframes mymove {
+      50% {
+        background: blue bottom right/50px 50px;
+      }
+    }
+
+    /* Standard syntax */
+
+    @keyframes mymove {
+      50% {
+        background: blue bottom right/50px 50px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<p>Gradually change the background property:<p>
-<div id="myDIV"></div>
+  <p>Gradually change the background property:
+    <p>
+      <div id="myDIV"></div>
 
-<p>The background property is a shorthand property for all background properties.</p>
-<p>Only background-color, background-position, and background-size are <em>animatable</em> in CSS.</p>
-<p><b>Note:</b> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
+      <p>The background property is a shorthand property for all background properties.</p>
+      <p>Only background-color, background-position, and background-size are <em>animatable</em> in CSS.</p>
+      <p><b>Note:</b> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
 
 </body>
+
 </html>

@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Position Fixed</title>
-    <style>
-      .absolute {
-        position: absolute;
-        top: 500px;
-        left: 60px;
-        height: 2000px;
-        background-color: limegreen;
-      }
-      .fixed {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        background-color: gold;
-        width: 90px;
-        padding: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="absolute">
+
+<head>
+  <meta charset="utf-8">
+  <title>Position Fixed</title>
+  <link rel="stylesheet" href="../Asset/normalize.css">
+  <style>
+    .absolute {
+      position: absolute;
+      top: 500px;
+      left: 60px;
+      height: 2000px;
+      background-color: limegreen;
+    }
+
+    .fixed {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background-color: gold;
+      width: 90px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="absolute">
     This tall div is absolutely positioned 500 pixels from the top and 60 pixels from the left of its containing block.
-    </div>
+  </div>
 
 
-    <div class="fixed">
-      This div is using a fixed position of 100 pixels from the top and 60 pixels from the left of its containing block. When this page scrolls, this box will remain in a fixed position - it won't scroll with the rest of the page. Go on - SCROLL!
-    </div>
-  </body>
+  <div class="fixed">
+    This div is using a fixed position of 100 pixels from the top and 60 pixels from the left of its containing block. When this page scrolls, this box will remain in a fixed position - it won't scroll with the rest of the page. Go on - SCROLL!
+  </div>
+</body>
+
 </html>
