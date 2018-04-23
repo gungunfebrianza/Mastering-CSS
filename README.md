@@ -1,21 +1,28 @@
 # learning-css
-From zero to hero learning CSS (Cascading Style Sheet).
+GGF Open Source Society University. From Zero to Hero Mastering CSS (Cascading Style Sheet).
 This is my learning resources at the time study about CSS.
 This Project Contains Source Code for learning :
 <ul>
   <li>Basics</li>
-  <li>Selection</li>
-  <li>Color</li>
-  <li>Background</li>
-  <li>Border</li>
-  <li>Margin</li>
-  <li>Padding</li>
-  <li>Box Model</li>
-  <li>Text</li>
-  <li>Font</li>
-  <li>List</li>
-  <li>Table</li>
-  <li>Unit</li>
+  <li>Selections</li>
+  <li>Colors</li>
+  <li>Backgrounds</li>
+  <li>Borders</li>
+  <li>Margins</li>
+  <li>Paddings</li>
+  <li>Box Models</li>
+  <li>Texts</li>
+  <li>Fonts</li>
+  <li>Lists</li>
+  <li>Tables</li>
+  <li>Units</li>
+  <li>Cursors</li>
+  <li>Icons</li>
+  <li>Displays</li>
+  <li>Positions</li>
+  <li>Floats</li>
+  <li>Overflows</li>
+  <li>Aligns</li>
 </ul>
 
 
